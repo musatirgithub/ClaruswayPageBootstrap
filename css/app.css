@@ -1,0 +1,124 @@
+:root {
+  --red: #dc3545;
+}
+
+/*! --------------- 1- NAVBAR ------------------ */
+.navbar .nav-link{
+  color: rgb(51, 50, 50) !important;
+  font-size: 1.2rem;
+  font-weight: 700;
+  transition: all 1s;
+}
+
+.navbar .nav-link:hover{
+  color: rgb(220, 53, 109) !important;
+}
+/*! --------------- 2- CAROUSEL ---------------- */
+.carousel-item{
+  width: 100% !important;
+  height: 91vh;
+}
+.carousel-item img{
+  width: 100%;
+  object-position: bottom;
+  object-fit: cover;
+  position: relative;
+}
+
+.carousel-caption{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+[class*="fs"]{
+  text-shadow: 2px 2px 2px rgb(0,0,0);
+}
+
+.carousel-item .btn{
+  width: 8rem;
+}
+
+.carousel-indicators{
+  position: absolute;
+  bottom: 2rem;
+}
+/* .carousel-indicators button{
+  background-color: #dc3545 !important;
+  width: 50px !important;
+  height: 6px !important;
+} */
+/*! --------------- 3- ABOUT SECTION ----------- */
+
+/*! --------------- 3- INSTRUCTORS SECTION ----------- */
+
+.instructors .card{
+  transition: all 1s;
+}
+
+.instructors .card:hover{
+  transform: scale(1.1, 1.1);
+  z-index: 1;
+}
+.social i{
+  transition: color 1s !important;
+}
+.social i:hover{
+  cursor: pointer;
+  color: #EE9AA2;
+}
+/*! ------------ 4- STUDENTS SECTION ----------- */
+.students img{
+  width: 60%;
+}
+
+.row{
+  justify-content: center;
+  align-items: center;
+}
+/*! ------------ 5- COURSES SECTION ------------- */
+
+
+.courses img{
+  width: 100%;
+/*   outline: 5px solid white;
+  border-radius: 2px; */
+  object-fit: cover;
+}
+
+.nav-pills .nav-item button{
+  color: white;
+}
+
+.nav-pills .active{
+  background-color:#dc3545 !important;
+}
+
+
+
+/*! ------------ 6- CONTACT SECTION ------------ */
+#textarea{
+  resize: none;
+}
+/*! ---------------- 7- FOOTER --------------- */
+.footer--social i.fa-brands:hover{
+  color: var(--red);
+}
+
+.up-btn{
+  color: white;
+  background-color: var(--red);
+  position: fixed;
+  bottom: 1rem;
+  right: 1rem;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  padding: 0.6rem;
+  font-size: 1.6rem;
+  text-align: center;
+}
+
+.up-btn:hover{
+  color: black;
+}

@@ -1,4 +1,4 @@
-# [Click here to reach Clarusway Wen Page Project](https://musatirgithub.github.io/ClaruswayPageBootstrap/index.html)
+# [Click here to reach Clarusway Web Page Project](https://musatirgithub.github.io/ClaruswayPageBootstrap/index.html)
 <h3>Hi there ✋. In this project, I've created a Web Page mainly using Bootstrap. In the project;</h3>
 <ul>
   <li>I've created a website using mainly Bootstrap5,</li>
